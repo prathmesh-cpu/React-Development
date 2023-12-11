@@ -35,7 +35,7 @@
 
 ---
 
-### Que. Why is crossorigin in script tag?
+### Que. What is crossorigin in script tag?
 ```js
 <script crossorigin src="..."></script>
 ```
