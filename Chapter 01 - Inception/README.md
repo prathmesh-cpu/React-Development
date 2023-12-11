@@ -46,8 +46,8 @@
 --- 
 
 ### Que. Difference between a `Library` and a `Framework`
-### ▸ **Library:** A library is a collection of pre-written code that provides specific functionalities. It is a set of functions or modules that can be called by an application to perform tasks.
-- ### e.g. jQuery is a library that simplifies HTML document traversal and manipulation.
+- ### `Library:` A library is a collection of pre-written code that provides specific functionalities. It is a set of functions or modules that can be called by an application to perform tasks.
+    ### e.g. jQuery is a library that simplifies HTML document traversal and manipulation.
 
-### ▸ **Framework:** A framework is a more comprehensive structure that dictates the overall design of an application. It provides a foundation with rules and conventions, and the application code fills in the details.
-- ### e.g. Angular is a TypeScript-based front-end framework developed by Google for building dynamic web applications.
+- ### `Framework:` A framework is a more comprehensive structure that dictates the overall design of an application. It provides a foundation with rules and conventions, and the application code fills in the details.
+    ### e.g. Angular is a TypeScript-based front-end framework developed by Google for building dynamic web applications.
