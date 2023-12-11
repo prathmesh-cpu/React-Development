@@ -5,6 +5,7 @@
 
 ---
 ### How to add react cdn into html?
+### [React CDN Link](https://legacy.reactjs.org/docs/cdn-links.html)
 ```js
 <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
 ```
