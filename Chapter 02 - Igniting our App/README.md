@@ -11,7 +11,7 @@
 ---
 
 ### Que. How to initialize npm?
-- 
+- ### Initialization command:
     ```cmd
     npm init
     ```
