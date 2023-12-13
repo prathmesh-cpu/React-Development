@@ -1,0 +1,14 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "First React App",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Prathamesh Dhavale",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.10.3"
+  }
+}
