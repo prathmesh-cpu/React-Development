@@ -68,7 +68,7 @@
     ```
     ### The `-D` flag is a shorthand for `--save-dev`
 
-    ```js
+    ```json
     package.json
     
     "devDependencies": {
