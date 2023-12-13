@@ -11,10 +11,10 @@
 ---
 
 ### Que. How to initialize npm?
-
-```cmd
-npm init
-```
+- 
+    ```cmd
+    npm init
+    ```
 
 - ### `npm init -y` can be used to skip the setup step, npm takes care of it and creates the `package.json` file automatically , but without configurations.
   
@@ -31,3 +31,11 @@ npm init
 - ### In web development it refers to a tool that optimizes and `bundles web assets` for efficient delivery.
 - ### Common bundlers include Webpack, _Parcel_, Vite, and Rollup.
 - ### These tools combine and compress assets like JavaScript, CSS, and images.
+- ### `Parcel and Webpack` are crucial tools in modern web development, offering efficient asset bundling, optimization, and automation to enhance the development workflow and improve the performance of web applications.
+- ### The choice between them often depends on the project's size, complexity, and the developer's preferences regarding configuration and flexibility.
+
+    ### Installation:
+    ```cmd
+    npm install -D parcel
+    ```
+- ### `-D` is used for development and as a development dependency.
