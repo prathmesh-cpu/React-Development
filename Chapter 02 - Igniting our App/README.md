@@ -37,3 +37,26 @@
     npm install -D parcel
     ```
     ### `-D` is used for development and as a development dependency.
+
+---
+
+### Que. What is the difference between `dependencies` and `devDependencies`?
+
+### **dependencies**:
+- ### These are packages that are necessary for the `application to run in production`.
+    ### Install Dependencies:
+    ```
+    npm install <package_name>
+    ```
+
+### **devDependencies**:
+- ### These are packages that are `only needed during development`, not in the production environment.
+    ### Install DevDependencies:
+    ```js
+    npm install --save-dev <package_name>
+    ```
+    ### <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OR</p>
+    ```
+    npm install -D <package_name>
+    ```
+    ### The `-D` flag is a shorthand for `--save-dev`
