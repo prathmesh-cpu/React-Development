@@ -10,7 +10,7 @@
 
 ---
 
-### Que. How to initialize npm?
+### Que. How to `initialize npm`?
 - ### Initialization command:
     ```
     npm init
