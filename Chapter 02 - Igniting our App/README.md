@@ -48,9 +48,8 @@
     ```
     npm install <package_name>
     ```
+    ### package.json:
     ```json
-    package.json
-    
     "dependencies": {
         "package_name": "^version"
     }
@@ -68,9 +67,8 @@
     ```
     ### The `-D` flag is a shorthand for `--save-dev`
 
+    ### package.json:
     ```json
-    package.json
-    
     "devDependencies": {
         "parcel": "^2.10.3"
     }
