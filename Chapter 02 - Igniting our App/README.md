@@ -48,15 +48,30 @@
     ```
     npm install <package_name>
     ```
+    ```json
+    package.json
+    
+    "dependencies": {
+        "package_name": "^version"
+    }
+    ```
 
 ### **devDependencies**:
 - ### These are packages that are `only needed during development`, not in the production environment.
     ### Install DevDependencies:
     ```js
     npm install --save-dev <package_name>
-    ```
-    ### <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OR</p>
-    ```
+        
+          OR
+        
     npm install -D <package_name>
     ```
     ### The `-D` flag is a shorthand for `--save-dev`
+
+    ```json
+    package.json
+    
+    "devDependencies": {
+        "parcel": "^2.10.3"
+    }
+    ```
