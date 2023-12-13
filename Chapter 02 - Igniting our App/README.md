@@ -32,7 +32,7 @@
 - ### `Parcel and Webpack` are crucial tools in modern web development, offering efficient asset bundling, optimization, and automation to enhance the development workflow and improve the performance of web applications.
 - ### The choice between them often depends on the project's size, complexity, and the developer's preferences regarding configuration and flexibility.
 
-- ### Parcel installation command:
+- ### `Parcel` installation command:
     ```
     npm install -D parcel
     ```
