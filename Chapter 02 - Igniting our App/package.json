@@ -2,13 +2,20 @@
   "name": "react",
   "version": "1.0.0",
   "description": "First React App",
-  "main": "index.js",
   "scripts": {
     "test": "jest"
   },
   "author": "Prathamesh Dhavale",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.10.3"
-  }
+    "parcel": "^2.10.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
 }
