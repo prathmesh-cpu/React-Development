@@ -1,9 +1,9 @@
 ## Chapter 01 - Inception
 
 ## ● React -
-- ### It is a `JavaScript Library` used for building user interface.
-- ### It is designed and developed by `Facebook` developers.
-- ### Browser can't understand React it only understands JS.
+> ### It is a `JavaScript Library` used for building user interface.
+> ### It is designed and developed by `Facebook` developers.
+> ### Browser can't understand React it only understands JS.
 
 ---
 ### How to add react cdn into html?
