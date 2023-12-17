@@ -93,7 +93,7 @@
 ---
 
 ### Que. What is the caret `^` and tilde `~` symbol in package.json or package-lock.json file?
-- ### `Caret (^):`
+- ### <code style="color : yellow">Caret (^):</code>
     ### Compatible with the specified version. Allows updates up to, but not including, the next major version.
     ```json
     "dependencies": {
@@ -102,7 +102,7 @@
     ```
     ### Example, if the version is 1.2.3, you can install any version in the range 1.2.4 to 1.9.9, but not 2.0.0.
 
-- ### `Tilde (~):`
+- ### <code style="color : yellow">Tilde (~):</code>
     ### Approximately equivalent to the specified version. Allows updates up to, but not including, the next minor version.
     ```json
     "dependencies": {
