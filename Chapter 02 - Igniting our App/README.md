@@ -137,7 +137,7 @@
 ---
 
 ### Que. List down any 8 `superpowers of Parcel`.
-### **Superpowers of Parcel -** [📄Documentation](https://parceljs.org){target="_blank"}
+### **Superpowers of Parcel -** <a href="https://parceljs.org" target="blank">📄Documentation</a>
 1. ### `Hot Module Replacement (HMR):`
     ### Provides out-of-the-box support for Hot Module Replacement, enabling real-time code updates during development without a full page refresh.
 2. ### `Zero Configuration:`
