@@ -117,7 +117,7 @@
 - ### Functional components are `JavaScript functions that return a React element (JSX)`.
 - ### They are the modern `alternative to class-based components` and are often preferred for their simplicity.
     
-    ### **◈ Basic Structure:**
+    ### `Basic Structure:`
     ```js
     const ReactComponent = () => {
         return <h1>Hello World</h1>;
@@ -125,7 +125,7 @@
     ```
     #### ⇒ A functional component that returns a simple JSX element.
 
-    ### **◈ Single-Line and Multi-Line Syntax:**
+    ### `Single-Line and Multi-Line Syntax:`
 
     #### We `can avoid return statement` also.
     
@@ -141,7 +141,7 @@
     ```
     #### ⇒ For multi-line, JSX can be wrapped in parentheses.
 
-    ### **◈ Nested JSX element:**
+    ### `Nested JSX element:`
     ```js
     const ReactComponent = () => (
         <div id="container">
