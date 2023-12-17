@@ -136,7 +136,7 @@
 
 ---
 
-### Que. List down any 8 `superpowers of Parcel`.
+### Que. List down any 9 `superpowers of Parcel`.
 ### **Superpowers of Parcel -** [📄Documentation](https://parceljs.org/)
 1. ### `Hot Module Replacement (HMR):`
     ### Provides out-of-the-box support for Hot Module Replacement, enabling real-time code updates during development without a full page refresh.
@@ -154,6 +154,8 @@
     ### Utilizes an efficient file-watching algorithm to track changes in project files and trigger necessary rebuilds during development. This algorithm is written in C++.
 8. ### `Caching While Development:`
     ### Implement smart caching during development to boost build speed by avoiding unnecessary recompilation when dependencies stay unchanged.
+9. ### `Tree Shaking:`
+    ### Supports Tree Shaking, a technique that eliminates unused code during the build process, resulting in smaller bundle sizes for improved performance.
 
 ---
 
