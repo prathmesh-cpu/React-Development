@@ -123,7 +123,7 @@
         return <h1>Hello World</h1>;
     }
     ```
-    #### ↪ A functional component that returns a simple JSX element.
+    #### ⇒ A functional component that returns a simple JSX element.
 
     ### **◈ Single-Line and Multi-Line Syntax:**
 
@@ -132,14 +132,14 @@
     ```js
     const ReactComponent = () => <h1>Hello World</h1>;
     ```
-    #### ↪ For single line JSX, there is no need of parentheses.
+    #### ⇒ For single line JSX, there is no need of parentheses.
 
     ```js
     const ReactComponent = () => (
         <h1>Hello World</h1>
     );
     ```
-    #### ↪ For multi-line, JSX can be wrapped in parentheses.
+    #### ⇒ For multi-line, JSX can be wrapped in parentheses.
 
     ### **◈ Nested JSX element:**
     ```js
@@ -149,7 +149,7 @@
         </div>
     );
     ```
-    #### ↪ A functional component with nested JSX elements.
+    #### ⇒ A functional component with nested JSX elements.
 
 ---
 
@@ -167,7 +167,7 @@
 
     root.render({ReactComponent()});
     ```
-    #### ↪ Rendering the functional component to the DOM using a root element.
+    #### ⇒ Rendering the functional component to the DOM using a root element.
 
 - ### `Adding JS Variable in Component:`
     ```js
@@ -180,7 +180,7 @@
         </div>
     );
     ```
-    #### ↪ We can include JavaScript variables within the JSX of a functional component.
+    #### ⇒ We can include JavaScript variables within the JSX of a functional component.
 
 - ### `Rendering One Component into Another:`
     ### Rendering one component into another is known as `Component Composition`.
@@ -212,7 +212,7 @@
         </div>
     );
     ```
-    #### ↪ Rendering a functional component (`TitleComponent`) within another (`HeadingComponent`).
+    #### ⇒ Rendering a functional component (`TitleComponent`) within another (`HeadingComponent`).
 
 - ### `Rendering React Elements in Components:`
     ```js
@@ -229,7 +229,7 @@
         </div>
     );
     ```
-    #### ↪ React element can be included within the JSX of a functional component.
+    #### ⇒ React element can be included within the JSX of a functional component.
 
 - ### `Rendering One React Element into Another:`
     ```js
@@ -244,4 +244,4 @@
     );
     ```
 
-    #### ↪ React element can be included within the JSX of another React element.
+    #### ⇒ React element can be included within the JSX of another React element.
