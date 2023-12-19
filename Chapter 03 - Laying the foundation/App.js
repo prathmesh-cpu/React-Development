@@ -50,8 +50,10 @@ root.render(<HeadingComponent />);
 
 // ----------------------------------------------------------------------------
 
+let logoImg = "https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png";
+
 const NavbarComponent = () => ([
-    <img className="logo" src="https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png" />,
+    <img className="logo" src={logoImg} />,
     <div className="searchBar">
         <input type="text" />
         <button><i class="fa-solid fa-magnifying-glass"></i></button>
