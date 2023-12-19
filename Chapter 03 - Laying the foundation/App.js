@@ -47,3 +47,23 @@ const HeadingComponent = () => (
 
 let root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<HeadingComponent />);
+
+// ----------------------------------------------------------------------------
+
+const NavbarComponent = () => ([
+    <img className="logo" src="https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png" />,
+    <div className="searchBar">
+        <input type="text" />
+        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>,
+    <div className="navItems">
+        <li>Home</li>
+        <li>About</li>
+        <li>Service</li>
+        <li>Contact</li>
+    </div>
+])
+
+let navbar = ReactDOM.createRoot(document.getElementsByClassName("navbar")[0]);
+
+navbar.render(<NavbarComponent />);
