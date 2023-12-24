@@ -162,7 +162,7 @@
     - ### It contains our searchBar.
     ### **restaurantContainer** - 
     - ### It contains our `RestaurantCard Component`.
-    - ### To build our `RestaurantCard Component` dynamic or it's data should be different for different cards, I have created one `restoList object array` it contains all data of Restaustant(`Swiggy API`).
+    - ### To build our `RestaurantCard Component` dynamic or it's data should be different for different cards, I have created one `restoList object array` it contains all data of Restaustant (`Swiggy API`).
     - ### To access all this objects of restaustant data, I have iterate through restoList by using `.map()` method.
     - ### To pass the data or object to RestaurantCard Component, I have use [`props`](#que-what-is-props).
     
@@ -375,3 +375,52 @@
     - ### Updates may not be as optimized, potentially impacting performance.
     - ### Reactivity is often achieved through event listeners, responding to changes.
     - ### `Changes are directly rendered to the Real DOM`, sometimes causing performance issues.
+
+    | Virtual DOM                                             | Real DOM                                                         |
+    | ------------------------------------------------------- | ---------------------------------------------------------------- |
+    | DOM manipulation is very easy                           | DOM manipulation is very expensive                               |
+    | No memory wastage                                       | There is too much memory wastage                                 |
+    | Updates quickly                                         | Updates slowly                                                   |
+    | It can’t update HTML directly                           | It can directly update HTML                                      |
+    | Update the JSX if the element updates                   | Creates a new DOM if the element updates                         |
+    | It can produce about 200,000 Virtual DOM Nodes / Second | It allows us to directly target any specific node (HTML element) |
+    | It is only a virtual representation of the DOM          | It represents the UI of your application                         |
+
+    <table style="font-size:16px;">
+        <thead>
+            <tr>
+                <th>Virtual DOM</th>
+                <th>Real DOM</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>DOM manipulation is very easy</td>
+                <td>DOM manipulation is very expensive</td>
+            </tr>
+            <tr>
+                <td>No memory wastage</td>
+                <td>There is too much memory wastage</td>
+            </tr>
+            <tr>
+                <td>Updates quickly</td>
+                <td>Updates slowly</td>
+            </tr>
+            <tr>
+                <td>It can’t update HTML directly</td>
+                <td>It can directly update HTML</td>
+            </tr>
+            <tr>
+                <td>Update the JSX if the element updates</td>
+                <td>Creates a new DOM if the element updates</td>
+            </tr>
+            <tr>
+                <td>It can produce about 200,000 Virtual DOM Nodes / Second</td>
+                <td>It allows us to directly target any specific node (HTML element)</td>
+            </tr>
+            <tr>
+                <td>It is only a virtual representation of the DOM</td>
+                <td>It represents the UI of your application</td>
+            </tr>
+        </tbody>
+    </table>
