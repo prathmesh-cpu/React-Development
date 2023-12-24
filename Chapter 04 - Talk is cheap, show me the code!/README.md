@@ -88,7 +88,7 @@
     <img src="https://github.com/prathmesh-cpu/React-Development/assets/56761941/cf2ebf8e-b1bc-4e68-8e5e-ef2d5720d4d5" height="400px">
 
 ---
----
+### > [SwigZo Application Live 🚀](https://react-chapter4.vercel.app/)
 ---
 
 ### Let's start `building our App`:
@@ -281,8 +281,6 @@
     ```
 
 <img src="https://github.com/prathmesh-cpu/React-Development/assets/56761941/decd107b-b03b-4234-96bc-81611ecf1f58" alt="Swigzo App" height="400">
-
-### [SwigZo Application Live 🚀](https://react-chapter4.vercel.app/)
 
 ---
 ---
