@@ -379,7 +379,7 @@
     ---
     
 
-    | ` Virtual DOM                                 `         | ` Real DOM                                   `                   |
+    | ` Virtual DOM                                  `        | ` Real DOM                                      `                |
     | ------------------------------------------------------- | ---------------------------------------------------------------- |
     | DOM manipulation is very easy                           | DOM manipulation is very expensive                               |
     | No memory wastage                                       | There is too much memory wastage                                 |
