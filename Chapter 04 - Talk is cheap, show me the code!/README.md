@@ -376,12 +376,15 @@
     - ### Reactivity is often achieved through event listeners, responding to changes.
     - ### `Changes are directly rendered to the Real DOM`, sometimes causing performance issues.
 
-    | Virtual DOM                                             | Real DOM                                                         |
-    | ------------------------------------------------------- | ---------------------------------------------------------------- |
-    | DOM manipulation is very easy                           | DOM manipulation is very expensive                               |
-    | No memory wastage                                       | There is too much memory wastage                                 |
-    | Updates quickly                                         | Updates slowly                                                   |
-    | It can’t update HTML directly                           | It can directly update HTML                                      |
-    | Update the JSX if the element updates                   | Creates a new DOM if the element updates                         |
-    | It can produce about 200,000 Virtual DOM Nodes / Second | It allows us to directly target any specific node (HTML element) |
-    | It is only a virtual representation of the DOM          | It represents the UI of your application                         |
+    ---
+    
+
+    | ` Virtual DOM                                           ` | ` Real DOM                                                       ` |
+    | --------------------------------------------------------- | ------------------------------------------------------------------ |
+    | DOM manipulation is very easy                             | DOM manipulation is very expensive                                 |
+    | No memory wastage                                         | There is too much memory wastage                                   |
+    | Updates quickly                                           | Updates slowly                                                     |
+    | It can’t update HTML directly                             | It can directly update HTML                                        |
+    | Update the JSX if the element updates                     | Creates a new DOM if the element updates                           |
+    | It can produce about 200,000 Virtual DOM Nodes / Second   | It allows us to directly target any specific node (HTML element)   |
+    | It is only a virtual representation of the DOM            | It represents the UI of your application                           |
