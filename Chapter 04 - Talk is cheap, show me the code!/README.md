@@ -350,7 +350,7 @@
 
 ---
 
-### What is `React Fiber`?
+### What is `React Fiber`? [📄Documentation](https://github.com/acdlite/react-fiber-architecture)
 - ### React Fiber makes rendering asynchronous to avoid UI freezes during heavy tasks.
 - ### It prioritizes important updates for a more responsive user experience.
 - ### Work is done in small chunks, improving efficiency and responsiveness.
