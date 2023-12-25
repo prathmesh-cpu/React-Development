@@ -228,3 +228,7 @@
     - ### React Fiber Architecture:
       - ### React uses a mechanism called `React Fiber` to manage the order and priority of updates. It allows React to work on updates in a more flexible and interruptible way.
       - ### Fiber helps in breaking down the work into smaller chunks and prioritizing them, making your app more responsive and efficient.
+
+---
+
+### > [SwigZo Application Live 🚀](https://react-chapter5.vercel.app/)
