@@ -3,10 +3,10 @@ import RestaurantCard from "./RestaurantCard";
 import restoList from "../utils/mockData";
 
 const filterData = (searchText, listOfRestaurants) => {
-    const fileredList = listOfRestaurants.filter((restaurant) => {
+    const filteredList = listOfRestaurants.filter((restaurant) => {
         return restaurant?.info?.name.toLowerCase().includes(searchText.toLowerCase());
     })
-    return fileredList;
+    return filteredList;
 }
 
 const Body = () => {
