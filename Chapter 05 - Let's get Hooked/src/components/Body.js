@@ -2,17 +2,9 @@ import { useState } from "react";
 import RestaurantCard from "./RestaurantCard";
 import restoList from "../utils/mockData";
 
-const filterData = (searchText, listOfRestaurants) => {
-    const filteredList = listOfRestaurants.filter((restaurant) => {
-        return restaurant?.info?.name.toLowerCase().includes(searchText.toLowerCase());
-    })
-    return filteredList;
-}
-
 const Body = () => {
 
     // Local State Variable - with superpowers given by React.
-    const [searchText, setSearchText] = useState("");
     const [listOfRestaurants, setListOfRestaurants] = useState(restoList);
 
     // Normal JS variable -
@@ -23,14 +15,7 @@ const Body = () => {
             <div className='searchContainer'>
                 <div>
                     <label htmlFor='search'><i className="fa-solid fa-magnifying-glass"></i></label>
-                    <input type='text' id='search' autoComplete='off' placeholder='Search for restaurants and food' value={searchText} onChange={(e) => {
-                        setSearchText(e.target.value);
-                    }} onKeyDown={(e) => {
-                        if (e.key == 'Enter') {
-                            const data = filterData(searchText, listOfRestaurants);
-                            setListOfRestaurants(data);
-                        }
-                    }} />
+                    <input type='text' id='search' autoComplete='off' placeholder='Search for restaurants and food' />
                 </div>
             </div>
 
