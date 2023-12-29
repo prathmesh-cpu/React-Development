@@ -50,7 +50,7 @@ const Body = () => {
             <div className="searchContainer">
                 <button className="filterBtn" onClick={() => {
                     const fileredList = listOfRestaurants.filter((resto) => {
-                        return resto.info.avgRating > 4.0;
+                        return resto?.info?.avgRating > 4.0;
                     });
                     setFilteredRestaurant(fileredList);
                 }}>
