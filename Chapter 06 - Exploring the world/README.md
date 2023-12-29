@@ -18,14 +18,14 @@
 - ### Different `services can use different technology stacks` based on their specific requirements. This is also known `Seperation of Concerns`.
 - ### Debugging and tracing issues might be more complex as they involve interactions between distributed services.
 
-<img src="assets/monolith_vs_microservice.png" height="400px">
+<img src="https://github.com/prathmesh-cpu/React-Development/assets/56761941/0bbeb346-99d3-4d25-9953-aabbde7f0d01" height="400px">
 
 ---
 
 ### Que. How does the `UI fetch data from the backend`?
 ### There are two Approaches to fetch data from the backend:
 1. ### `Load Webpage -> API Call -> Render on UI:`
-    <img src="assets/Fetch_1.png" width="600px">
+    <img src="https://github.com/prathmesh-cpu/React-Development/assets/56761941/94165724-5248-4007-8d1a-84ac0f38dd01" width="600px">
 
      - ### In this approach, the `webpage initially loads`, and then an API (Application Programming Interface) call is made to the backend.
      - ### The `API call` requests specific data or resources from the backend server.
@@ -35,7 +35,7 @@
     ---
 
 2. ### `Load Webpage -> Render on UI (Shimmer UI) -> API Call -> Re-render on UI:`
-    <img src="assets/Fetch_2.png" width="600px">
+    <img src="https://github.com/prathmesh-cpu/React-Development/assets/56761941/5b6b0837-d80c-4cbf-b071-86f25fcc15fd" width="600px">
      
      - ### In this approach, the `webpage loads` and renders a placeholder or `Shimmer UI` to provide a visual indication to the user that content is loading.    
      - ### The `UI is rendered initially with some generic or loading state components` while waiting for the data from the backend.
@@ -145,7 +145,7 @@
 - ### Designed to provide immediate feedback to users while waiting for data, preventing a blank or static screen and giving the impression that something is happening in the background.
 - ### Improves the perceived performance of an application by creating a more interactive and responsive feel, offering a smooth transition from a loading state to displaying actual content.
     ### Example:
-    <img src="assets/shimmer_UI.gif" width="">
+    <img src="https://github.com/prathmesh-cpu/React-Development/assets/56761941/07b374bd-f3a5-41ea-be7a-581f1d66e69e" width="">
 
 ---
 
@@ -157,7 +157,3 @@
     {isLoggedIn ? <WelcomeComponent /> : <LoginComponent />}
     ```
     ### Here, `WelcomeComponent` is rendered if `isLoggedIn` is true, otherwise `LoginComponent` is rendered.
-
----
-
-### > [SwigZo Application Live 🚀](https://react-chapter6.vercel.app/)
