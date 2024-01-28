@@ -14,20 +14,20 @@ const Contact = () => {
                     <div className="right">
                         <form>
                             <div>
-                                <label for="name"><i className="fa-solid fa-user"></i></label>
+                                <label htmlFor="name"><i className="fa-solid fa-user"></i></label>
                                 <input type="text" placeholder="Name" id="name" name="name" required />
                             </div>
                             <div>
-                                <label for="email"><i className="fa-solid fa-envelope"></i></label>
+                                <label htmlFor="email"><i className="fa-solid fa-envelope"></i></label>
                                 <input type="email" placeholder="Email" id="email" name="email" required />
                             </div>
                             <div>
-                                <label for="phone"><i className="fa-solid fa-phone"></i></label>
+                                <label htmlFor="phone"><i className="fa-solid fa-phone"></i></label>
                                 <input type="tel" placeholder="Phone" id="phone" name="phone" pattern="[1-9]{1}[0-9]{9}"
                                     required />
                             </div>
                             <div>
-                                <label for="usertext"><i className="fa-solid fa-comment-dots"></i></label>
+                                <label htmlFor="usertext"><i className="fa-solid fa-comment-dots"></i></label>
                                 <textarea placeholder="Message" name="usertext" cols="21" rows="3" id="usertext"
                                     required></textarea>
                             </div>
