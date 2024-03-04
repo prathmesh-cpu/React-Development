@@ -13,3 +13,7 @@
 ### [Chapter 05 - Let's get Hooked](./Chapter%2005%20-%20Let's%20get%20Hooked/)
 
 ### [Chapter 06 - Exploring the world](./Chapter%2006%20-%20Exploring%20the%20world/)
+
+### [Chapter 07 - Finding the path](./Chapter%2007%20-%20Finding%20the%20path/)
+
+### [Chapter 08 - Let's get Classy](./Chapter%2008%20-%20Let's%20get%20Classy/)
