@@ -16,17 +16,17 @@ const RestaurantMenu = () => {
     const fetchMenu = async () => {
         let data = await fetch(RES_INFO_API_URL + resId);
         data = await data.json();
-        console.log(data?.data?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards[2]?.card?.card);
+        console.log("ReastaurantMenu: ", data?.data?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[2]?.card?.card?.itemCards);
+        console.log(data?.data);
         setResInfo(data?.data);
     }
 
     if (resInfo === null) return <ShimmerMenu />
-
-    const { name, cuisines } = resInfo?.cards[0]?.card?.card?.info;
-    if (resInfo?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards[2]?.card?.card?.categories === undefined) {
-        var { itemCards } = resInfo?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards[2]?.card?.card;
+    const { name, cuisines } = resInfo?.cards[2]?.card?.card?.info;
+    if (resInfo?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[2]?.card?.card?.categories === undefined) {
+        var { itemCards } = resInfo?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[2]?.card?.card;
     } else {
-        var { itemCards } = resInfo?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards[2]?.card?.card?.categories[0];
+        var { itemCards } = resInfo?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[2]?.card?.card?.categories[0];
     }
 
     return (
